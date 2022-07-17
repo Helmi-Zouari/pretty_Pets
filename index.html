@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pretty Pets</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="Pretty Pets Logo">
+                </a>
+                <!-- <button class="burger is-visible-mobile">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button> -->
+                
+                <nav class="main-nav">
+                    <div class="burger">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#about-us">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#how-to-adopt">How to Adopt</a>
+                        </li>
+                        <li>
+                            <a href="#stories">Stories</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <!-- <li><button onclick="myFunction()"><img src="images/circle-half-stroke-solid.svg" alt="DarkMode"></button></li> -->
+                    </ul>
+                </nav>
+            
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__desc">
+                        <h1>Find and Adopt a pet Near You</h1>
+                        <p>There are so many loving adoptable pets right in your community waiting for a family to call
+                            their own. </p>
+                        <a href="#" class="button is-primary">Find a pet</a>
+                    </div>
+                    <div class="hero__image">
+                        <img src="images/hero-image.png" alt="Hero Image" />
+                    </div>
+                </div>
+            </section>
+            <section class="meetYourMatch">
+                <div class="container">
+                    <div class="meetYourMatch__background"></div>
+                    
+                    <div class="meetYourMatchــcontent">
+                        <h2>Meet Your Match</h2>
+                        <form action="#" class="meetYourMatchــform">
+                            <div class="switcher">
+                                <!-- <label for="dog"> -->
+                                    <!-- <input id="dog" name="animal_type" type="checkbox" /> -->
+                                    <img src="images/pets/svgviewer-output.svg" alt="dog image" class="animals " onclick="select(event)" >
+                                <!-- </label> -->
+                                <span>OR</span>
+                                <!-- <label for="cat"> -->
+                                    <!-- <input id="cat" name="animal_type" type="checkbox" /> -->
+                                    <img src="images/pets/cat.png" alt="cat image" class="animals" onclick="select(event)">
+                                <!-- </label> -->
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Entre  your city" />
+                                <button class="button is-primary" type="submit" >Search</button>
+                            </div>
+                        </form>
+                        <div class="widgets is-searchResults">
+                            <div class="widget">
+                                <div class="widget__image">
+                                    <img src="images/pet-01.png" alt="pet image">
+                                </div>
+                                <div class="widget__desc">
+                                    <h4>Rocco</h4>
+                                    <p>Male | Young</p>
+                                    <p>Los Angeles CA</p>
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__image">
+                                    <img src="images/pet-02.png" alt="pet image">
+                                </div>
+                                <div class="widget__desc">
+                                    <h4>Chanona</h4>
+                                    <p>Male | Young</p>
+                                    <p>Los Angeles CA</p>
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__image">
+                                    <img src="images/pet-03.png" alt="pet image">
+                                </div>
+                                <div class="widget__desc">
+                                    <h4>Morio</h4>
+                                    <p>Male | Young</p>
+                                    <p>Los Angeles CA</p>
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__image">
+                                    <img src="images/pet-04.png" alt="pet image">
+                                </div>
+                                <div class="widget__desc">
+                                    <h4>danio</h4>
+                                    <p>Male | Young</p>
+                                    <p>Los Angeles CA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="howItWorks">
+                <div class="container">
+                    <h2>How it works?</h2>
+                    <div class="widgets is-howItWorks">
+                        <div class="widget">
+                            <div class="widget__image">
+                                <img src="images/howItWorks/1.png" alt="graphic-image">
+                            </div>
+                            <div class="widget__desc">
+                                <h3>find Your Match</h3>
+                                <p>We work with local rescues & shelters to help you find adoptable pets in your
+                                    area.</p>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget__image">
+                                <img src="images/howItWorks/2.png" alt="graphic-image">
+                            </div>
+                            <div class="widget__desc">
+                                <h3>Adopt a pet</h3>
+                                <p>We partner with local adoption organizations to help connect pets in need with
+                                    pets lovers just like you.</p>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget__image">
+                                <img src="images/howItWorks/3.png" alt="graphic-image">
+                            </div>
+                            <div class="widget__desc">
+                                <h3>Change your Life</h3>
+                                <p>From the story we hear, adopting pets change life of many people from our
+                                    community</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="stories">
+                <div class="container">
+                    <h2>Featured Stories</h2>
+                    <p class="heading-paragraph">Together, we've helped save over 80K pets through adoption. Read
+                        amazing stories to see how adoption change the life of those people</p>
+                    <div class="widgets">
+                        <div class="widget">
+                            <div class="widget__image">
+                                <img src="images/stories/1.png" alt="graphic-image">
+                            </div>
+                            <div class="widget__desc">
+                                <h3>This is how I met Kori</h3>
+                                <a href="#" class="link">Read More</a>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget__image">
+                                <img src="images/stories/2.png" alt="graphic-image">
+                            </div>
+                            <div class="widget__desc">
+                                <h3>I can’t live without Nochi.</h3>
+                                <a href="#" class="link">Read More</a>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget__image">
+                                <img src="images/stories/3.png" alt="graphic-image">
+                            </div>
+                            <div class="widget__desc">
+                                <h3>My cat, My new friend!</h3>
+                                <a href="#" class="link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="actions">
+                <div class="container">
+                    <h2>Change a Life, Adopt a Pet</h2>
+                    <a href="#" class="button is-secondary"  >Find a pet</a> 
+                    <a href="#" class="button is-outline">Donate</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="copyrights">
+                    <img src="images/logo.png" alt="Logo">
+                    <p>&copy; 2021 — 2022</p>
+                    <p><a href="#">Privacy</a> — <a href="#">Terms</a></p>
+                </div>
+                <div class="footer-nav">
+                    <div class="item">
+                        <h5>How to Adopt</h5>
+                        <ul>
+                            <li><a href="#">find a pet</a></li>
+                            <li><a href="#">adoption centers</a></li>
+                            <li><a href="#">adoption events</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h5>about us</h5>
+                        <ul>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h5>Stories</h5>
+                        <ul>
+                            <li><a href="#">community impact</a></li>
+                            <li><a href="#">your stories</a></li>
+                            <li><a href="#">our impact</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h5>Help us</h5>
+                        <ul>
+                            <li><a href="#">Donate</a></li>
+                            <li><a href="#">Corporate giving</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+        </main>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
